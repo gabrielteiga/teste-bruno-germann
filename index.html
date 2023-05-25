@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <title>Bruno Germann</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <header class="cabecalho">
+            <nav class="nav-principal">
+                <a class="logo" href="/"><img src="./img/Logo-Azul-Esquerda.svg" alt="Logo BG"></a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a class="nav-list__ancora" href="/">Home</a></li>
+                    <li><a class="nav-list__ancora" href="/">Sobre mim</a></li>
+                    <li><a class="nav-list__ancora" href="/">Treinos</a></li>
+                    <li><a class="nav-list__ancora" href="/">Contatos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="container banner">
+                <div class="banner__imagem">
+                    <img class="imagem__logo" src="./img/Logo-Vermelha-Background-Azul-Mobile-removebg.png" alt="">
+                </div>
+                <div class="banner__intro">
+                    <div class="intro">
+                        <h1 class="intro__titulo">Bora começar a <strong>treinar de verdade?</strong></h2>
+                        <ul class="intro__items">
+                            <li class="items">
+                                <img src="./img/thunder.png" alt=".">
+                                <h3>Acompanhamento presencial</h3>
+                            </li>
+                            <li class="items">
+                                <img src="./img/thunder.png" alt=".">
+                                <h3>Consultoria Online</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container carrossel">
+                <h2 class="carrossel__titulo">Sobre Mim</h2>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="./img/front-squat.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/cross.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/correndo.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/evolucao.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/terra.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+                </div>
+                <div class="perfil">
+                    <h2 class="perfil__titulo">
+                        <strong>Bruno Germann Vieira</strong>
+                    </h2>
+                    <p class="perfil__texto">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id sem nec nunc facilisis sagittis. Duis a porttitor velit. Phasellus a mauris sed massa placerat commodo. In hac habitasse platea dictumst. Quisque commodo pretium dapibus. Etiam elementum libero id viverra venenatis. Ut metus nisi, faucibus sed faucibus ac, laoreet et ligula.
+                    </p>
+                    <p class="perfil__texto">
+                        In consequat tellus in eros laoreet ornare. Etiam semper ante metus, quis facilisis ex placerat ut. Quisque vitae luctus arcu. Cras sed vestibulum lectus. Cras ullamcorper, sem non viverra tincidunt, ipsum neque commodo magna, eu iaculis leo velit a elit. In convallis quis ipsum in rutrum. Cras pharetra, magna ac cursus eleifend, ante urna aliquam sem, eu placerat mi ligula tempor mi. Phasellus accumsan tincidunt neque. Vestibulum finibus risus nec est feugiat accumsan. Praesent tortor sem, euismod et tellus quis, rutrum volutpat sapien. Nunc tincidunt leo quis neque malesuada vehicula. Aliquam a condimentum est, quis vehicula sapien. Suspendisse placerat fermentum diam, ut varius eros condimentum id. Nunc ac risus libero.
+                    </p>
+                </div>
+            </section>
+
+            <section class="container carrossel">
+                <h2 class="carrossel__titulo">Treinos personalizados</h2>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="./img/crossfit.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/atletismo.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/musculacao.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/personal.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+                </div>
+                <div class="card">
+                    <div class="card__descricao">
+                        <!-- primeira coluna-->
+                        <div class="descricao">
+                            <h3 class="descricao__titulo">Treino</h3>
+                            <h2 class="descricao__titulo-treino">Corrida</h2>
+                            <p class="descricao__texto">A melhora do desempenho na corrida, criando musculatura e treinos especificos para atingir o seu objetivo</p>
+                        </div>
+                        <img class="descricao__imagem" src="./img/atletismo.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="contatos">
+                <div class="contatos__titulo">
+                    <h2>Não deixa para amanhã!</h2>
+                    <h2>Me chama!</h2>
+                </div>
+                <ul class="contatos__redes">
+                    <li class="redes">
+                        <img src="./img/logo-whatsapp.svg" alt="">
+                        <a href="/">WhatsApp</a>
+                    </li>
+                    <li class="redes">
+                        <img src="./img/logo-instagram.svg" alt="">
+                        <a href="/">Instagram</a>
+                    </li>
+                </ul>
+            </section>
+
+            <footer class="rodape">
+                <h3 class="rodape__titulo">Desenvolvido por Gabriel Teiga</h3>
+            </footer>
+        </main>
+        
+        <script src="./mobile-navbar.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 25,
+                slidesPerView: 2.5,
+                });
+        </script>
+    
+    </body>
+
+</html>

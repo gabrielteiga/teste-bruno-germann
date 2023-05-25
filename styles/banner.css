@@ -1,0 +1,56 @@
+.banner{
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.banner__imagem{
+    margin: 3rem 0;
+}
+
+.imagem__logo{
+    width: 10rem;
+}
+
+.banner__intro{
+    height: 55vh;
+    display: flex;
+}
+
+.banner__intro{
+    justify-content: center;
+    text-align: center;
+}
+
+.intro__perfil{
+    border-radius: 250px;
+    width: 8rem;
+    height: 8rem;
+}
+
+.intro__titulo{
+    color: var(--branco);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.intro__titulo strong{
+    color: var(--vermelho);
+    font-weight: 700;
+    animation: neon 3s alternate infinite ease-in-out;
+}
+
+@keyframes neon {
+    from{
+        filter: drop-shadow(0 0 0 var(--vermelho));
+    } to{
+        filter: drop-shadow(0 0 3px var(--vermelho));
+    }
+}
+
+.items{
+    margin-top: 5rem;
+    list-style-type: none;
+}

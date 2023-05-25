@@ -1,0 +1,52 @@
+.carrossel__titulo{
+    color: var(--branco);
+    background-color: var(--vermelho);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.swiper-wrapper{
+    align-items: center;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+    display: none;
+}
+
+.card__descricao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    background: var(--vermelho);
+    box-shadow: 0px 0px 0px var(--branco);
+    border-radius: 10px;
+    margin: 2rem 2rem 6rem 2rem;
+    padding: 1rem;
+}
+
+.descricao__titulo-treino{
+    color: var(--azul);
+    margin: 0.5rem 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.descricao__imagem{
+    width: 30vw;
+}
+
+.descricao__titulo{
+    text-transform: uppercase;
+    font-size: 18px;
+}
