@@ -1,7 +1,22 @@
 .rodape{
+    display: flex;
+    flex-direction: column;
     margin-top: 6rem;
-    background-color: var(--vermelho);
+    background-color: var(--vermelho-escuro);
     padding: 1rem;
     text-align: center;
     font-weight: 700;
+    gap: 1rem;
+}
+
+.rodape__subtitulo{
+    
+    font-size: 0.7rem;
+    font-weight: 300;
+    background-color: var(--vermelho-escuro);
+}
+
+.rodape__subtitulo img{
+    margin-top: 0.5rem;
+    width: 8rem;
 }
