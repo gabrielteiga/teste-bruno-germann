@@ -46,6 +46,7 @@ body{
         justify-content: space-around;
         transform: translateX(100%);
         transition: opacity 0.3s ease-out;
+        z-index: 1;
     }
 
     .nav-list li{
