@@ -30,7 +30,7 @@ body{
 @media (max-width: 800px) {
     
     body{
-        overflow: hidden; /* Essa propriedade faz com que tudo que transborde do body, fique escondido*/
+        overflow-x: hidden; /* Essa propriedade faz com que tudo que transborde do body, fique escondido*/
     }
 
     .nav-list{
