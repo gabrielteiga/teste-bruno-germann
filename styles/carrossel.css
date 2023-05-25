@@ -10,15 +10,21 @@
 
 .swiper-wrapper{
     align-items: center;
+    text-align: center;
 }
 
 .swiper-slide img{
-    width: 100%;
+    width: 30vh;
 }
 
 .swiper-button-prev,
 .swiper-button-next{
     display: none;
+}
+
+.swiper-pagination{
+    position: initial;
+    margin: 0rem 0;
 }
 
 .card__descricao{

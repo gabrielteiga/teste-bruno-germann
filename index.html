@@ -55,6 +55,8 @@
             <section class="container carrossel">
                 <h2 class="carrossel__titulo">Sobre Mim</h2>
                 <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
@@ -96,6 +98,8 @@
             <section class="container carrossel">
                 <h2 class="carrossel__titulo">Treinos personalizados</h2>
                 <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
@@ -162,8 +166,12 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         <script>
             const swiper = new Swiper('.swiper', {
-                spaceBetween: 25,
-                slidesPerView: 2.5,
+                spaceBetween: 0,
+                slidesPerView: 1,
+                pagination:{
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
                 });
         </script>
     
