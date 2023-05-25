@@ -9,7 +9,8 @@ a{
 }
 
 a:hover{
-    opacity: 0.7;
+    opacity: 0.5;
+    font-size: 1.1rem;
 }
 
 
@@ -49,4 +50,3 @@ nav{
     margin: 8px;
     transition: 0.3s;
 }
-

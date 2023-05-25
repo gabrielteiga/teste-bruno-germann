@@ -9,6 +9,10 @@
     margin-bottom: 1rem;
 }
 
+.contatos__titulo strong{
+    color: var(--vermelho);
+}
+
 .contatos__redes{
     align-items: center;
     gap: 2rem;
@@ -34,6 +38,15 @@
     text-decoration: none;
     color: var(--branco);
     font-weight: 500;
+    animation: neon 1s alternate infinite ease-in-out;
+}
+
+@keyframes neon {
+    from{
+        filter: drop-shadow(0 0 0 var(--vermelho));
+    } to{
+        filter: drop-shadow(0 0 4px var(--vermelho));
+    }
 }
 
 .redes:hover{
