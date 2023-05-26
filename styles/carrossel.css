@@ -19,7 +19,7 @@
 
 .swiper-button-prev,
 .swiper-button-next{
-    display: none;
+    --swiper-navigation-color: var(--vermelho);
 }
 
 .swiper-pagination{

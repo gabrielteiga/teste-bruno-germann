@@ -144,11 +144,11 @@
                 </div>
                 <ul class="contatos__redes">
                     <li class="redes">
-                        <img src="./img/logo-whatsapp.svg" alt="">
+                        <img src="./img/logo-whatsapp.svg" alt="Contato WhatsApp">
                         <a href="/">WhatsApp</a>
                     </li>
                     <li class="redes">
-                        <img src="./img/logo-instagram.svg" alt="">
+                        <img src="./img/logo-instagram.svg" alt="Direct Instagram">
                         <a href="/">Instagram</a>
                     </li>
                 </ul>
@@ -168,9 +168,14 @@
             const swiper = new Swiper('.swiper', {
                 spaceBetween: 0,
                 slidesPerView: 1,
+                loop: true,
                 pagination:{
                     el: '.swiper-pagination',
                     type: 'bullets',
+                },
+                navigation:{
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
                 },
                 });
         </script>

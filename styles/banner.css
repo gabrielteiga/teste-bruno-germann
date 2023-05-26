@@ -1,5 +1,6 @@
 .banner{
     margin: 1rem 2rem;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -15,7 +16,7 @@
 }
 
 .banner__intro{
-    height: 56vh;
+    height: 80vh;
     display: flex;
 }
 
